@@ -1,0 +1,34 @@
+#boggle {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  margin: auto;
+}
+
+.boggle-board {
+  margin: auto;
+  font-weight: bold;
+  font-size: 200%;
+}
+
+.boggle-board td {
+  width: 2em;
+  height: 2em;
+}
+
+.words {
+  list-style: none;
+}
+
+.msg {
+  padding: 1em;
+}
+
+.msg.ok {
+  color: whitesmoke;
+  background-color: green;
+}
+
+.msg.err {
+  color: whitesmoke;
+  background-color: orangered;
+}
